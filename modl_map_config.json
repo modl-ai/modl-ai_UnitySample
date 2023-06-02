@@ -1,0 +1,22 @@
+{
+    "MapList": [
+        {
+            "Name": "Playground",
+            "Commands": "--modl_load_level \"Playground\"",
+            "ServerCommands": "",
+            "MapImageFile": "capturedLevels/PlaygroundImage"
+        },
+        {
+            "Name": "Labyrinth",
+            "Commands": "--modl_load_level \"Labyrinth\"",
+            "ServerCommands": "",
+            "MapImageFile": "capturedLevels/Labyrinth_TopView_SceneViewLight"
+        },
+        {
+            "Name": "BigWorld",
+            "Commands": "--modl_load_level \"BigWorld\"",
+            "ServerCommands": "",
+            "MapImageFile": "capturedLevels/BigWorld_TopView_InGameLighting"
+        }
+    ]
+}

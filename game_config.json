@@ -1,0 +1,282 @@
+{
+ "action_space": {
+  "name": "Inputs",
+  "type": "SPACE",
+  "dims": [
+   {
+    "id": "GlobalObjectId_V1-1-a97a523bbcb554c0c8e3ed799be61f85-7700600616844597004-0",
+    "name": "ModlBean",
+    "type": "SPACE",
+    "dims": [
+     {
+      "id": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|StarterAssets.StarterAssetsInputs",
+      "name": "StarterAssetsInputs",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "move",
+        "name": "move",
+        "type": "SPACE",
+        "dims": [
+         {
+          "id": "x",
+          "name": "x",
+          "type": "CONTINUOUS_DIMENSION",
+          "min_value": -1,
+          "max_value": 1
+         },
+         {
+          "id": "y",
+          "name": "y",
+          "type": "CONTINUOUS_DIMENSION",
+          "min_value": -1,
+          "max_value": 1
+         }
+        ]
+       },
+       {
+        "id": "jump",
+        "name": "jump",
+        "type": "SPACE",
+        "dims": [
+         {
+          "id": "jump",
+          "name": "jump",
+          "type": "BOOLEAN_DIMENSION",
+          "min_value": -1,
+          "max_value": 1
+         },
+         {
+          "id": "y",
+          "name": "y",
+          "type": "CONTINUOUS_DIMENSION",
+          "min_value": -1,
+          "max_value": 1
+         }
+        ]
+       },
+       {
+        "id": "sprint",
+        "name": "sprint",
+        "type": "SPACE",
+        "dims": [
+         {
+          "id": "sprint",
+          "name": "sprint",
+          "type": "BOOLEAN_DIMENSION",
+          "min_value": -1,
+          "max_value": 1
+         },
+         {
+          "id": "y",
+          "name": "y",
+          "type": "CONTINUOUS_DIMENSION",
+          "min_value": -1,
+          "max_value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "feature_space": {
+  "name": "Observations",
+  "type": "SPACE",
+  "dims": [
+   {
+    "id": "GlobalObjectId_V1-1-a97a523bbcb554c0c8e3ed799be61f85-7700600616844597004-0",
+    "name": "ModlBean",
+    "type": "SPACE",
+    "dims": [
+     {
+      "id": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|UnityEngine.Transform",
+      "name": "Transform",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "position",
+        "name": "position",
+        "type": "SPACE",
+        "dims": [
+         {
+          "id": "x",
+          "name": "x",
+          "type": "CONTINUOUS_DIMENSION"
+         },
+         {
+          "id": "y",
+          "name": "y",
+          "type": "CONTINUOUS_DIMENSION"
+         },
+         {
+          "id": "z",
+          "name": "z",
+          "type": "CONTINUOUS_DIMENSION"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "object_space": {
+  "name": "Extras",
+  "type": "SPACE",
+  "dims": [
+   {
+    "id": "GlobalObjectId_V1-1-a97a523bbcb554c0c8e3ed799be61f85-7700600616844597004-0",
+    "name": "ModlBean",
+    "type": "SPACE",
+    "dims": [
+     {
+      "id": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|UnityEngine.Transform",
+      "name": "Transform",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "position",
+        "name": "position",
+        "type": "SPACE",
+        "dims": [
+         {
+          "id": "x",
+          "name": "x",
+          "type": "CONTINUOUS_DIMENSION"
+         },
+         {
+          "id": "y",
+          "name": "y",
+          "type": "CONTINUOUS_DIMENSION"
+         },
+         {
+          "id": "z",
+          "name": "z",
+          "type": "CONTINUOUS_DIMENSION"
+         }
+        ],
+        "tags": [
+         "position"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Modl.Demo.Score",
+      "name": "Score",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "count",
+        "name": "count",
+        "type": "DISCRETE_DIMENSION",
+        "tags": [
+         "readOnly"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|StarterAssets.ThirdPersonController",
+      "name": "ThirdPersonController",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "Grounded",
+        "name": "Grounded",
+        "type": "BOOLEAN_DIMENSION"
+       }
+      ]
+     },
+     {
+      "id": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|PlayerLogic",
+      "name": "PlayerLogic",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "HasKey",
+        "name": "HasKey",
+        "type": "BOOLEAN_DIMENSION",
+        "tags": [
+         "readOnly"
+        ]
+       }
+      ]
+     }
+    ],
+    "tags": [
+     "player"
+    ]
+   },
+   {
+    "id": "GlobalObjectId_V1-1-4a17cc15eac6f4dc5a266a304fb4d1fe-109746585696159718-0",
+    "name": "ModlWaypoint",
+    "type": "SPACE",
+    "dims": [
+     {
+      "id": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|UnityEngine.Transform",
+      "name": "Transform",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "position",
+        "name": "position",
+        "type": "SPACE",
+        "dims": [
+         {
+          "id": "x",
+          "name": "x",
+          "type": "CONTINUOUS_DIMENSION"
+         },
+         {
+          "id": "y",
+          "name": "y",
+          "type": "CONTINUOUS_DIMENSION"
+         },
+         {
+          "id": "z",
+          "name": "z",
+          "type": "CONTINUOUS_DIMENSION"
+         }
+        ],
+        "tags": [
+         "waypoint"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "Modl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Modl.ModlWaypoint",
+      "name": "ModlWaypoint",
+      "type": "SPACE",
+      "dims": [
+       {
+        "id": "index",
+        "name": "index",
+        "type": "DISCRETE_DIMENSION",
+        "tags": [
+         "waypoint_index"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "sensor_space": {
+  "name": "SENSOR_SPACE",
+  "type": "SPACE"
+ },
+ "feature_granularity": [
+  1,
+  1,
+  1
+ ],
+ "min_fps": 10,
+ "brain_version": "10.2.6"
+}
